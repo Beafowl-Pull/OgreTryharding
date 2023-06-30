@@ -6,6 +6,8 @@ include(cmake/CPM.cmake)
 
 find_package(Catch2 QUIET)
 
+find_package(OGRE REQUIRED)
+
 function(myproject_setup_dependencies)
 
   # For each dependency, see if it's
